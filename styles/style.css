@@ -12,7 +12,9 @@ body{
 }
 
 header{
-    background: linear-gradient(var(--cor1), var(--cor0));
+    /* background: linear-gradient(var(--cor1), var(--cor0)); */
+    background: url(../images/leather-1920.jpg);
+    box-shadow: inset 0px -7px 21px 0px rgba(0,0,0,0.85);
     padding: 15px 0;
 }
 
@@ -20,6 +22,10 @@ header div{
     position: relative;
     width: 1000px;
     margin: 0 auto;
+}
+
+#logo{
+    filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.7));    
 }
 
 nav{
@@ -39,6 +45,7 @@ nav a{
     font-weight: 500;
     font-size: 22px;
     text-decoration: none;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
 }
 
 nav a:hover{
