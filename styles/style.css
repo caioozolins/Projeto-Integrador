@@ -1,0 +1,48 @@
+:root{
+    --cor0: #662714;
+    --cor1: #804F40;
+    --cor2: #B34524;
+    --cor3: #B36E59;
+    --cor4: #FF6333;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: linear-gradient(var(--cor1), var(--cor0));
+    padding: 15px 0;
+}
+
+header div{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--cor4);
+    text-decoration: underline;
+}
+
