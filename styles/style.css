@@ -49,3 +49,14 @@ nav a:hover{
 #banner{
     width: 100%;
 }
+
+footer{
+    text-align: center;
+    background: url(../images/bg.jpg);
+    padding: 40px 0;
+}
+
+#copyright{
+    color: white;
+    font-size: 13px;
+}
