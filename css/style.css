@@ -1,9 +1,9 @@
 :root{
-    --cor0: #662714;
-    --cor1: #804F40;
-    --cor2: #B34524;
-    --cor3: #B36E59;
-    --cor4: #FF6333;
+    --cor0: #FCF9F2;
+    --cor1: #563A22;
+    --cor2: #F1D7B4;
+    --cor3: #9B7C64;
+    --cor4: #F18836;
 
 }
 
@@ -18,12 +18,11 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--cor3);
+    background-color: var(--cor2);
 }
 
 header{
-    /* background: linear-gradient(var(--cor1), var(--cor0)); */
-    background: url(../images/leather-1920.jpg);
+    background: url(../images/black-metal-1920x1080.jpg);
     box-shadow: inset 0px -7px 21px 0px rgba(0,0,0,0.85);
     padding: 15px 0;
 }
@@ -31,16 +30,18 @@ header{
 header div{
     position: relative;
     width: 1000px;
+    height: 150px;
     margin: 0 auto;
 }
 
 #logo{
-    filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.7));    
+    filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.7));
+    height: 150px;
 }
 
 nav{
     position: absolute;
-    top: 110px;
+    top: 95px;
     right: 0;
 }
 
@@ -59,8 +60,8 @@ nav a{
 }
 
 nav a:hover{
-    color: var(--cor4);
-    text-decoration: underline;
+    color: var(--cor3);
+    text-decoration: underline; 
 }
 
 #banner{
@@ -69,7 +70,8 @@ nav a:hover{
 
 footer{
     text-align: center;
-    background: url(../images/bg.jpg);
+    background: url(../images/black-metal-1920x1080.jpg);
+    background-position-y: -400px;
     padding: 40px 0;
 }
 
@@ -139,17 +141,18 @@ input{
 }
 
 input:focus{
-    border-color: var(--cor2);
+    border-color: var(--cor4);
 }
 
 input[type="submit"]{
-    background-color: var(--cor0);
+    background-color: var(--cor1);
     color: white;
     border: none;
     border-radius: 20px;
     height: 40px;
     cursor: pointer;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    margin-bottom: 0px;
 }
 
 #agreement{
