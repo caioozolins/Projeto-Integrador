@@ -38,19 +38,19 @@ header{
 header div{
     position: relative;
     width: 1000px;
-    height: 150px;
+    height: 115px;
     margin: 0 auto;
 }
 
 #logo{
     filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.7));
     height: 280px;
-    object-position: -30px -65px;
+    object-position: -30px -83px;
 }
 
 nav{
     position: absolute;
-    top: 95px;
+    top: 80px;
     right: 0;
 }
 
