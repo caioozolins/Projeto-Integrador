@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbearia</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/login.css" />
   </head>
   <body>
     <header>
@@ -21,39 +26,41 @@
       </div>
     </header>
     <main>
-      <div class="container">
-        <form class="form" id="login">
-          <h1 class="form__title">Login</h1>
-          <div class="form__message form__message--error"></div>
-          <div class="form__input-group">
-            <input
-              type="text"
-              class="form__input"
-              autofocus
-              placeholder="Username or email"
-            />
-            <div class="form__input-error-message"></div>
-          </div>
-          <div class="form__input-group">
-            <input
-              type="password"
-              class="form__input"
-              autofocus
-              placeholder="Password"
-            />
-            <div class="form__input-error-message"></div>
-          </div>
-          <button class="form__button" type="submit">Continue</button>
-          <p class="form__text">
-            <a href="#" class="form__link">Esqueceu sua senha?</a>
-          </p>
-          <p class="form__text">
-            <a class="form__link" href="cadastro.html"
-              >Não possui uma conta?Criar</a
-            >
-          </p>
+      <div id="login-container">
+        <h1>Login</h1>
+        <form action="">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu e-email"
+            autocomplete="off"
+          />
+          <label for="password">Senha</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Digite sua senha"
+          />
+          <a href="#" id="forgot-pass">Esqueceu a senha?</a>
+          <input type="submit" value="Login" />
+        </form>
+        <div id="social-container">
+          <p>Ou entre pelas suas redes sociais</p>
+          <a href="https://www.instagram.com/?hl=pt-br">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </div>
+        <div id="register-container">
+          <p>Ainda não tem uma conta?</p>
+          <a href="../pages/cadastro.html">Registrar</a>
+        </div>
       </div>
-      <script src="../js/login.js"></script>
     </main>
     <footer>
       <p id="copyright">&copy;Copyright Unis - 2022</p>
